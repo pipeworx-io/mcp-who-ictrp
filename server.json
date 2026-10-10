@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/who-ictrp",
+  "title": "Who Ictrp",
+  "description": "WHO ICTRP — the International Clinical Trials Registry Platform search",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/who-ictrp",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-who-ictrp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/who-ictrp/mcp"
+    }
+  ]
+}
